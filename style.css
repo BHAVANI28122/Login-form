@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@600&family=Poppins:wght@300;400&family=Quattrocento+Sans:wght@700&family=Roboto:ital@0;1&family=Ruda&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    color: #ffffff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(images/tree-736885__340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.parent{
+    width: 380px;
+    height: 420px;
+    background:transparent;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.inputs span{
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    transition: 0.5s; 
+}
+input:valid ~ span,input:focus ~ span{
+   transform: translateY(-35px);
+     color: #ffffff;
+}
+input:valid ~ i,input:focus ~ i{
+     height: 40px;
+     color: #ffffff;
+    background-color: #ffffff;
+    top: 10px;
+ }
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+.inputs i {
+    width:98%;
+    height: 2px;
+    color: #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 55px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px 0px;
+
+}
+.links a{
+    text-decoration: none;
+   
+}
+input{
+   width: 340px; 
+   padding: 10px 10px 4px 5px;
+   border: none;
+   outline: none;
+   background: transparent;
+   font-size: 18px;
+   color: black;
+  position: relative;
+  z-index: 10;
+}
+
+.inputs{
+    position: relative;
+    padding: 20px 0px;
+    margin-top: 20px;
+    
+}
+.btn{
+    text-align: center;
+}
+button{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 600;
+}
+button:hover{
+    background-color: red;
+    color: #ffffff;
+}
+
+
+    
